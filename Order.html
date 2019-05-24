@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Order</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	</head>
+	
+	<body>
+
+		<h1>Menu</h1>
+		
+		<div id = "orderTable">
+		<table>
+			<tr>
+				<th>Food</th>
+				<th>Add on's for $1</th>
+				<th>Quantaty</th>
+			</tr>
+			<tr>
+				<td>Pad Thai $7.25 <br>Rice noodles with egg, peanuts, and bean sprouts</td>
+				<td><input type="checkbox" name="protine" value="Chicken">Chicken<br>
+				<input type="checkbox" name="protine" value="Beef" >Beef<br>
+				<input type="checkbox" name="protine" value="Shrimp" >Shrimp<br>
+				</td>
+				<td><select name=“quantaty”><option value=“1”>0</option>  
+				<option value=“2”>1</option>
+				<option value=“3”>2</option>
+				<option value=“4”>3</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Garlic Noodles $7.25 <br>Noodles with garlic, green onion, and secret sause</td>
+				<td><input type="checkbox" name="protine" value="Chicken">Chicken<br>
+				<input type="checkbox" name="protine" value="Beef" >Beef<br>
+				<input type="checkbox" name="protine" value="Shrimp" >Shrimp<br>
+				</td>
+				<td><select name=“quantaty”><option value=“1”>0</option>  
+				<option value=“2”>1</option>
+				<option value=“3”>2</option>
+				<option value=“4”>3</option>
+				</select>
+				</td>
+			</tr> 
+			<tr>
+				<td>Udon Noodle $7.25 <br>broccoli, egg, and secret sause</td>
+				<td><input type="checkbox" name="protine" value="Chicken">Chicken<br>
+				<input type="checkbox" name="protine" value="Beef" >Beef<br>
+				<input type="checkbox" name="protine" value="Shrimp" >Shrimp<br>
+				</td>
+				<td><select name=“quantaty”><option value=“1”>0</option>  
+				<option value=“2”>1</option>
+				<option value=“3”>2</option>
+				<option value=“4”>3</option>
+				</select>
+				</td>
+			</tr>
+		
+		</table>
+		</div>
+		
+		<div id = "noteBox">
+		<label for = "note_id">Notes</label>
+		<!--<input type = "text" name = "note" id = "note_id" class = "center">-->
+		<textarea rows = "5" cols ="30" name= "notes" wrap = "hard"></textarea>
+		</div>
+		
+		<button type = "button" id = "submit"><a href = "ThankYou.html">Submit</button>
+
+	</body>
+</html>

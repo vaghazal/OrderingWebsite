@@ -1,0 +1,26 @@
+body {
+  background-color: #ff8080;
+}
+
+h1 {
+  color: #ffff80;
+  font-size:80px;
+  text-align:Center; 
+}
+h2 {
+  color: #ffff80;
+  margin-left: 20px;
+  text-align:Center; 
+  font-size:30px;
+}
+
+#LogInBox{
+	position: absolute;
+	text-align:Center;
+	right: 550px;
+	width: 450px;
+	height: 200px;
+	border: 5px black solid;
+	top: 200px;
+}
+.

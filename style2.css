@@ -1,0 +1,42 @@
+body {
+  background-color:white;
+}
+
+h1 {
+  color: #e6635f;
+  text-align: Center;
+  font-size: 80px;
+}
+
+p{
+	padding:40px;
+}
+
+#orderTable{
+	margin-left:500px;
+}
+
+table,th,td{
+	width:50%;
+	border:1px solid black;
+}
+
+#noteBox{
+	position:absolute;
+	right: 568px;
+	width: 450px;
+	height: 200px;
+	top: 450px;
+}
+
+#note_id{
+	height:50px;
+	width:500px;
+}
+
+#submit{
+	position:absolute;
+	left:50%;
+	top: 550px;
+	
+}
